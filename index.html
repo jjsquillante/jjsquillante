@@ -1,70 +1,164 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>jj.squillante</title>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>jj.squillante</title>
+  <style type="text/css">
+    body {
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 20%;
+      background: #f5f5f5ab;
+    }
+    span {
+      text-decoration: underline;
+    }
+
+
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css" rel="stylesheet">
 </head>
 <body>
-	<section class="hero">
-		<div class="hero-body">
-			<div class="container">
-				<h1 class="title is-size-1 has-text-centered has-text-grey">James J. Squillante</h1>
-			</div>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container">
-			<div class="columns">
-				<div class="column is-half is-offset-one-quarter">
-					<h1 class="title is-size-6 is-uppercase font-headline has-text-grey">About</h1>
-					<hr>
-					<h2 class="subtitle">Currently working full-time for <a href="https://www.bbva.com/en/us/" target="_blank">BBVA</a> where I develop scripts/applications to automate processes, improve efficiency, and minimize human error. In addition, I do contract work as a software consultant for <a href="https://watchandcode.com/" target="_blank">watchandcode.com</a> where I'm building out the new W/C platform.</h2>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container">
-			<div class="columns">
-				<div class="column is-half is-offset-one-quarter">
-					<h1 class="title is-size-6 is-uppercase font-headline has-text-grey">Open Source Contribution</h1>
-					<hr>
-					<h2 class="subtitle"><a href="https://stripe.com/" target="_blank">Stripe</a></h2>
-					<h3 class="subtitle is-size-6"><a href="https://www.npmjs.com/package/stripe" target="_blank"> > npm i stripe </a></h3>
-					<h3 class="subtitle is-size-6">The new standard in online payments.</h3>
-					<p class="subtitle is-size-6">Stripe is a technology company that builds economic infrastructure for the internet. Businesses of every size—from new startups to public companies—use our software to accept payments and manage their businesses online.</p>
-					<p class="subtitle is-size-6"><a href="https://github.com/stripe/stripe-node/issues/401" target="_blank">Feature Request #401 - Allow FileUpload to accept streams.</a></p>
-					<p class="subtitle is-size-6"><a href="https://github.com/stripe/stripe-node/pull/471" target="_blank">View Source Code on GitHub</a></p>
-					<hr>
-					<h2 class="subtitle"><a href="https://sheetjs.com/" target="_blank">SheetJS</a></h2>
-					<h3 class="subtitle is-size-6"><a href="https://www.npmjs.com/package/xlsx" target="_blank"> > npm i xlsx </a></h3>
-					<p class="subtitle is-size-6">Read, edit, and export spreadsheets in web browsers and servers.</p>
-					<p class="subtitle is-size-6"><a href="https://github.com/SheetJS/js-xlsx/issues/1204" target="_blank">Issue #1204 - html-based excel file failing to recognize merged columns due to case sensitive properties.</a></p>
-					<p class="subtitle is-size-6"><a href="https://github.com/SheetJS/js-xlsx/pull/1205" target="_blank">View Pull Request on GitHub</a></p>
-					<hr>
-					<h2 class="subtitle"><a href="https://openexchangerates.org/" target="_blank">Open Exchange Rates</a></h2>
-					<h3 class="subtitle is-size-6"><a href="https://www.npmjs.com/package/accounting" target="_blank"> > npm i accounting </a></h3>
-					<p class="subtitle is-size-6">Currency API that powers companies like <a href="https://www.shopify.com/" target="_blank">Shopify</a>, <a href="https://www.etsy.com/" target="_blank">Etsy</a>, and <a href="https://www.kickstarter.com/" target="_blank">KickStarter</a>.</p>
-					<p class="subtitle is-size-6">Contributions include: Fixed regular expression bugs, added unit tests, and added logic to catch arguments incorrectly passed to methods.</p>
-					<p class="subtitle is-size-6"><a href="https://github.com/openexchangerates/accounting.js" target="_blank">View Source Code on GitHub</a></p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container">
-			<div class="columns">
-				<div class="column is-half is-offset-one-quarter">
-					<h1 class="title is-size-6 is-uppercase font-headline has-text-grey">Contact</h1>
-					<hr>
-					<p class="subtitle">You're welcome to contact me via <a href="https://www.linkedin.com/in/james-squillante-00a31812" target="_blank">linkedin</a> to chat and discuss new opportunities.</p>
-					<p class="subtitle is-size-6">Ps. find the rest of my work on <a href="https://github.com/jjsquillante" target="_blank">GitHub</a>.</p>
-				</div>
-			</div>
-		</div>
-	</section>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-size-1 has-text-centered has-text-grey">James J. Squillante</h1>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <h1 class="title is-size-6 is-uppercase font-headline has-text-grey">About</h1>
+          <hr>
+          <h2 class="subtitle is-size-6">Software Developer located in Mobile, Alabama.
+          </h2>
+          <h2 class="subtitle is-size-6">Currently working full-time for <a href="https://www.bbva.com/en/us/" target="_blank">BBVA</a> where I develop scripts and web applications to automate processes for our European Regulatory Reporting Division.</h2>
+
+          <h2 class="subtitle is-size-6"> In addition, I do contract work as a software consultant for <a href="https://watchandcode.com/" target="_blank">watchandcode.com</a> where I'm building out the new platform.</h2>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <h1 class="title is-size-6 is-uppercase font-headline has-text-grey">My Work at BBVA</h1>
+          <hr>
+          <h3 class="subtitle is-size-6">Most of my time at <a href="https://www.bbva.com/en/us/" target="_blank">BBVA</a> has been spent improving the workflow for our financial analysts in order to enhance the reporting process. Initially, this started as writing a suite of scripts (<a href="http://nodejs.org/" target="_blank">Node.js</a>) to automate manual tasks and evolved into a web application that runs reports and displays reporting trends/stats.</h3>
+          <hr>
+          <h3 class="subtitle is-size-6 is-uppercase font-headline has-text-grey">Tools</h3>
+          <hr>
+          <ul> <span>Language/Frameworks</span>
+            <li> - Node.js</li>
+            <li> - Express.js</li>
+            <li> - React.js</li>
+            <li> - Redux</li>
+            <li> - Material UI</li>
+          </ul>
+          <ul> <span>API</span>
+            <li> - Google API (Auth, Gmail, Google Docs, Google Spreadsheet)</li>
+            <li> - Atlassian API (Bitbucket, JIRA)</li>
+          </ul>
+          <ul> <span>Database</span>
+            <li> - Oracle</li>
+          </ul>
+          <ul> <span>AWS</span>
+            <li> - Lambda</li>
+            <li> - EC2</li>
+            <li> - S3</li>
+          </ul>  
+          <hr>
+          <h3 class="subtitle is-size-6 is-uppercase font-headline has-text-grey">Web Application Features</h3>
+          <p class="subtitle is-size-7"><em>*The entire application was built by myself, from scratch, using the tools above.*</em></p>
+          <hr>
+          <h3 class="subtitle is-size-6 is-uppercase font-headline has-text-grey">Report Generation</h3>
+          <p class="subtitle is-size-6"> - The report generation process enables analysts to run reports, track their progress, and automatically post any results/controls/documentation to the google drive and JIRA. (GIF 1/2)</p>
+          <div class="columns">
+          <div class="column is-half">
+            <img src="https://public-media.driftvideo.com/videos-gifs/HYFY-RECORDING-913212-946692-1573660222.0.gif">
+            <p class="subtitle is-size-7">Demonstrates a user creating a report based on input selection.</p>
+          </div>
+          <div class="column is-half">
+            <img src="https://public-media.driftvideo.com/videos-gifs/HYFY-RECORDING-913247-946727-1573661314.0.gif">
+            <p class="subtitle is-size-7">Demonstrates a completed report and the ability to retrieve the posted results from JIRA.</p>
+          </div>            
+          </div>
+          <hr>
+          <h3 class="subtitle is-size-6 is-uppercase font-headline has-text-grey">File Upload</h3>
+          <p class="subtitle is-size-6"> - Analysts are able to initiate the ETL process by loading external data into tables within the database for reporting purposes. (GIF 1)</p>
+          <p class="subtitle is-size-6"> - An automated email is submitted with the results of the file load. A file log is created and stored within the google drive. (GIF 2)</p>
+          <div class="columns">
+          <div class="column is-half">
+            <img src="https://public-media.driftvideo.com/videos-gifs/HYFY-RECORDING-912061-945536-1573594832.0.gif">
+            <p class="subtitle is-size-7">Demonstrates a file upload.</p>
+          </div>
+          <div class="column is-half">
+            <img src="https://public-media.driftvideo.com/videos-gifs/HYFY-RECORDING-913116-946596-1573657689.0.gif">
+            <p class="subtitle is-size-7">Demonstrates an auto-generated email and file log based on the upload results.</p>
+          </div>            
+          </div>
+          <hr>          
+          <h3 class="subtitle is-size-6 is-uppercase font-headline has-text-grey">Reporting Dashboard</h3>
+          <p class="subtitle is-size-6"> - The reporting dashboard provides insight for analysts to determine when the monthly data is ready to run their reports.</p>
+          <p class="subtitle is-size-6"> - Also, charts are provided to display reconciliation and trends analysis.</p>
+          <div class="columns">
+          <div class="column">
+            <img src="https://public-media.driftvideo.com/videos-gifs/HYFY-RECORDING-913186-946666-1573659281.0.gif">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <h1 class="title is-size-6 is-uppercase font-headline has-text-grey">Open Source Contribution</h1>
+          <hr>
+          <h2 class="subtitle"><a href="https://stripe.com/" target="_blank">Stripe</a></h2>
+          <h3 class="subtitle is-size-6"><a href="https://www.npmjs.com/package/stripe" target="_blank"> > npm i stripe </a></h3>
+          <h3 class="subtitle is-size-6">The new standard in online payments.</h3>
+          <p class="subtitle is-size-6">Stripe is a technology company that builds economic infrastructure for the internet. Businesses of every size—from new startups to public companies—use our software to accept payments and manage their businesses online.</p>
+          <p class="subtitle is-size-6"><a href="https://github.com/stripe/stripe-node/issues/401" target="_blank">Feature Request #401 - Allow FileUpload to accept streams.</a></p>
+          <p class="subtitle is-size-6"><a href="https://github.com/stripe/stripe-node/pull/471" target="_blank">View Source Code on GitHub</a></p>
+          <hr>
+          <h2 class="subtitle"><a href="https://sheetjs.com/" target="_blank">SheetJS</a></h2>
+          <h3 class="subtitle is-size-6"><a href="https://www.npmjs.com/package/xlsx" target="_blank"> > npm i xlsx </a></h3>
+          <p class="subtitle is-size-6">Read, edit, and export spreadsheets in web browsers and servers.</p>
+          <p class="subtitle is-size-6"><a href="https://github.com/SheetJS/js-xlsx/issues/1204" target="_blank">Issue #1204 - html-based excel file failing to recognize merged columns due to case sensitive properties.</a></p>
+          <p class="subtitle is-size-6"><a href="https://github.com/SheetJS/js-xlsx/pull/1205" target="_blank">View Pull Request on GitHub</a></p>
+          <hr>
+          <h2 class="subtitle"><a href="https://openexchangerates.org/" target="_blank">Open Exchange Rates</a></h2>
+          <h3 class="subtitle is-size-6"><a href="https://www.npmjs.com/package/accounting" target="_blank"> > npm i accounting </a></h3>
+          <p class="subtitle is-size-6">Currency API that powers companies like <a href="https://www.shopify.com/" target="_blank">Shopify</a>, <a href="https://www.etsy.com/" target="_blank">Etsy</a>, and <a href="https://www.kickstarter.com/" target="_blank">KickStarter</a>.</p>
+          <p class="subtitle is-size-6">Contributions include: Fixed regular expression bugs, added unit tests, and added logic to catch arguments incorrectly passed to methods.</p>
+          <p class="subtitle is-size-6"><a href="https://github.com/openexchangerates/accounting.js" target="_blank">View Source Code on GitHub</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half is-offset-one-quarter">
+          <h1 class="title is-size-6 is-uppercase font-headline has-text-grey">Contact</h1>
+          <hr>
+          <p class="subtitle">You're welcome to contact me via <a href="https://www.linkedin.com/in/james-squillante-00a31812" target="_blank">linkedin</a> to chat and discuss new opportunities.</p>
+          <p class="subtitle is-size-6">Ps. find the rest of my work on <a href="https://github.com/jjsquillante" target="_blank">GitHub</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
