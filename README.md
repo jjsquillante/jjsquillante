@@ -2,7 +2,7 @@
 
 ### Senior Software Engineer @ [Zeal](https://www.zeal.com)
 
-Experienced Software Engineer with ~10 years of experience in Fintech software.
+Experienced Software Engineer with ~10 years of experience within fintech industry.
 
 #### Previously @
 #### [Apple](https://www.apple.com/) - Software Developer
