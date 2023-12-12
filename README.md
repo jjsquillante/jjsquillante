@@ -1,2 +1,4 @@
-# jjsquillante
-Personal Site/Landing Page
+# James J. Squillante
+
+email: jjsquillante@gmail.com
+
