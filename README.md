@@ -1,8 +1,8 @@
 # James J. Squillante
 
-### Staff Software Engineer @ {{ a Stealth Mode 🚀 }} startup
+### Staff AI Software Engineer @ [Assured](https://www.assured.com/)
 
-Experienced Software Engineer with ~10 years of experience.
+Experienced Software Engineer with >10 years of experience.
 
 #### Previously @
 #### [Zeal (YC S19)](https://www.zeal.com) - Senior Software Engineer
